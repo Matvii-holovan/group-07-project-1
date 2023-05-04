@@ -12,8 +12,15 @@
 @import url('./sale.css');
 @import url('./footer.css');
 
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
 :root {
-  
+  --black-color: #141414;
+  --dark-green: #1E2827;
+  --white-color: #ffffff;
 }
 
 h1,
