@@ -27,17 +27,7 @@
   margin-bottom: 40px;
 }
 
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-    margin: 0 auto;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
   .discription {
     display: flex;
     flex-direction: row;
