@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
   .title-hero {
     width: 100%;
-    font-family: var(--prime-fonts);
+    font-family: 'Epilogue', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 38px;
@@ -44,11 +44,28 @@
   .button-prev {
     display: block;
     margin-top: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  .button-next {
+    display: block;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
   }
   .btn-prev-slider {
     width: 32px;
     height: 32px;
-    background: tomato;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+  }
+  .btn-next-slider {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
   }
   .hero-text {
     display: block;
@@ -78,6 +95,8 @@
   }
   .contr-hero-btn {
     display: flex;
+    position: absolute;
+    top: 20px;
     flex-direction: row;
   }
 }
@@ -97,7 +116,7 @@
   .hero {
     padding-top: 98px;
     padding-bottom: 64px;
-    background: var();
+    background: var(--black-color);
   }
   .swiper {
     margin-left: 0;
@@ -126,7 +145,7 @@
   .hero-text {
     display: block;
     position: absolute;
-    left: 476px;
+    right: 0;
     top: 425px;
     font-family: var(--prime-fonts);
     font-style: normal;
