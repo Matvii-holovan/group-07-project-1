@@ -1,14 +1,6 @@
 .about {
-  width: 100%;
-  height: 100%;
-  padding: 0 20px;
   padding-top: 40px;
   padding-bottom: 80px;
-}
-
-.about-wrapp {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .about-text {
@@ -17,7 +9,6 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--black-color);
-  max-width: 335px;
 }
 
 .about-title {
@@ -37,20 +28,17 @@
 }
 
 @media screen and (min-width: 375px) {
-  .about {
+  .container {
     max-width: 375px;
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .about {
+  .container {
     max-width: 768px;
   }
   .discription {
-    display: flex;
-  }
-  .about-list {
     display: flex;
     flex-direction: row;
   }
@@ -58,18 +46,29 @@
     font-size: 40px;
     line-height: 1.1;
     margin-right: 40px;
+    margin-bottom: 0;
+    min-width: 174px;
   }
-  .about-text {
-    max-width: 220px;
+
+  .about-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 40px;
   }
+
   .about-img {
     width: 100%;
     height: 100%;
   }
 }
 
-/* @media screen and (min-width: 1280px) {
-  .about {
+@media screen and (min-width: 1280px) {
+  /* .container {
+    max-width: 1176px;
+  } */
+
+  .about-wrapp {
     max-width: 1176px;
   }
   .about-title {
@@ -77,15 +76,16 @@
     margin-bottom: 0;
   }
 
-  .about-text {
+  /* .about-text {
     min-width: 439px;
-  }
+  } */
 
   .about-img {
-    height: 500px;
+    width: 892px;
     margin-left: auto;
   }
   .about-list {
     gap: 40px;
+    padding-right: 33px;
   }
-} */
+}
