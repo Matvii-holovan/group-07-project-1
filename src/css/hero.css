@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
   .title-hero {
     width: 100%;
-    font-family: var(--prime-fonts);
+    font-family: 'Epilogue', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 38px;
@@ -97,7 +97,7 @@
   .hero {
     padding-top: 98px;
     padding-bottom: 64px;
-    background: var();
+    background: var(--black-color);
   }
   .swiper {
     margin-left: 0;
@@ -126,7 +126,7 @@
   .hero-text {
     display: block;
     position: absolute;
-    left: 476px;
+    right: 0;
     top: 425px;
     font-family: var(--prime-fonts);
     font-style: normal;
