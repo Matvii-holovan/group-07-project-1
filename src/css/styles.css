@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Epilogue';
-  src: url(/src/fonts/Epilogue-Light.woff2), url(/src/fonts/Epilogue-Light.woff);
+  src: url(/src/fonts/Epilogue-Light.woff2) format('.woff2'), url(/src/fonts/Epilogue-Light.woff) format('.woff');
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'Epilogue';
-  src: url(/src/fonts/Epilogue-Regular.woff2), url(/src/fonts/Epilogue-Regular.woff);
+  src: url(/src/fonts/Epilogue-Regular.woff2) format('.woff2'), url(/src/fonts/Epilogue-Regular.woff) format('.woff');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: 'Epilogue';
-  src: url(/src/fonts/Epilogue-SemiBold.woff2), url(/src/fonts/Epilogue-SemiBold.woff);
+  src: url(/src/fonts/Epilogue-SemiBold.woff2) format('.woff2'), url(/src/fonts/Epilogue-SemiBold.woff) format('.woff');
   font-style: normal;
   font-weight: 600;
   font-display: swap;
