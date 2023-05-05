@@ -68,7 +68,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .about {
     max-width: 1176px;
   }
@@ -88,4 +88,4 @@
   .about-list {
     gap: 40px;
   }
-}
+} */
