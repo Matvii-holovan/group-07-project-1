@@ -11,6 +11,8 @@
 @import url('./new-watches.css');
 @import url('./sale.css');
 @import url('./footer.css');
+@import url('./modal.css');
+@import url('./menu-mob.css');
 
 @font-face {
   font-family: 'Epilogue';
