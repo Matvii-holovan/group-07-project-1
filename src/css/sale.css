@@ -1,0 +1,123 @@
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/**---------------SALE--------------*/
+
+.sale-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    text-align: start;
+    letter-spacing: -0.02em;
+    color: #141414;
+    margin-bottom: 40px;
+    
+    
+}
+.aspect-list {
+    
+}
+
+.sale-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+
+}
+.aspect-item {
+    /* flex-basis: 100%; */
+    background: #141414;
+}
+
+/* .sale-images>.team-item {
+    flex-basis: calc((100% - 24px) / 2);
+} */
+
+
+
+
+
+
+.aspect-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.sale-gwbpfm {
+margin-bottom: 40px;
+}
+
+.gwbpfm {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    text-align: start;
+    letter-spacing: -0.02em;
+    color: #141414;
+    margin-bottom: 8px;
+}
+
+.sale-prod {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25;
+    text-align: start;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+    margin-bottom: 16px;
+}
+.sale-descr {
+    border-top: 1px solid #141414;
+    margin-bottom: 40px;
+}
+.descr {
+    font-weight: 400;
+        font-size: 18px;
+        line-height: 1.з;
+        text-align: start;
+        letter-spacing: -0.02em;
+        color: #141414;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 9px;
+}
+.sale-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.25;
+        text-align: start;
+        letter-spacing: -0.01em;
+        color: rgba(20, 20, 20, 0.5);
+        margin-bottom: 40px;
+}
+.sale-detalis {
+
+}
+/* ----------MEDIA------------------ */
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
+}
