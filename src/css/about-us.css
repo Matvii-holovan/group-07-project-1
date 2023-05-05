@@ -1,7 +1,7 @@
-.about {
+/* .about {
   padding-top: 40px;
   /* padding-bottom: 80px; */
-}
+
 
 .about-text {
   font-weight: 300;
@@ -28,16 +28,11 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-    margin: 0 auto;
-  }
+
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
+
   .discription {
     display: flex;
     flex-direction: row;
@@ -63,9 +58,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  /* .container {
-    max-width: 1176px;
-  } */
+
 
   .about-wrapp {
     max-width: 1176px;
@@ -87,4 +80,4 @@
     gap: 40px;
     padding-right: 33px;
   }
-}
+} 
