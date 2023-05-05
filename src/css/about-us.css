@@ -26,6 +26,11 @@
   gap: 20px;
   margin-bottom: 40px;
 }
+.about-img {
+  width: 335px;
+  height: 365px;
+  object-fit: cover;
+}
 
 @media screen and (min-width: 375px) {
   .container {
@@ -59,7 +64,8 @@
 
   .about-img {
     width: 100%;
-    height: 100%;
+    height: 465px;
+    object-fit: cover;
   }
 }
 @media screen and (min-width: 1280px) {
