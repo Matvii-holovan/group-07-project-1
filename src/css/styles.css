@@ -16,7 +16,8 @@
 
 @font-face {
   font-family: 'Epilogue';
-  src: url(/src/fonts/Epilogue-Light.woff2) format('.woff2'), url(/src/fonts/Epilogue-Light.woff) format('.woff');
+  src: url(/src/fonts/Epilogue-Light.woff2) format('.woff2'),
+    url(/src/fonts/Epilogue-Light.woff) format('.woff');
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -24,7 +25,8 @@
 
 @font-face {
   font-family: 'Epilogue';
-  src: url(/src/fonts/Epilogue-Regular.woff2) format('.woff2'), url(/src/fonts/Epilogue-Regular.woff) format('.woff');
+  src: url(/src/fonts/Epilogue-Regular.woff2) format('.woff2'),
+    url(/src/fonts/Epilogue-Regular.woff) format('.woff');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -32,20 +34,22 @@
 
 @font-face {
   font-family: 'Epilogue';
-  src: url(/src/fonts/Epilogue-SemiBold.woff2) format('.woff2'), url(/src/fonts/Epilogue-SemiBold.woff) format('.woff');
+  src: url(/src/fonts/Epilogue-SemiBold.woff2) format('.woff2'),
+    url(/src/fonts/Epilogue-SemiBold.woff) format('.woff');
   font-style: normal;
   font-weight: 600;
   font-display: swap;
 }
 
 body {
-  font-family: "Epilogue", sans-serif;
+  font-family: 'Epilogue', sans-serif;
 }
 
 :root {
   --black-color: #141414;
-  --dark-green: #1E2827;
+  --dark-green: #1e2827;
   --white-color: #ffffff;
+  --prime-font: 'Epilogue', sans-serif;
 }
 
 h1,
@@ -90,11 +94,9 @@ img {
   .container {
     width: 375px;
   }
-
 }
 
 @media screen and (min-width: 768px) {
-
   .container {
     width: 768px;
     padding-left: 32px;
@@ -103,7 +105,6 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-
   .container {
     width: 1280px;
     padding-left: 52px;
