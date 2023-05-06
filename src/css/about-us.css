@@ -70,19 +70,17 @@
     margin-bottom: 0;
   }
 
-  .about-img {
-    width: 892px;
-    margin-left: auto;
-  }
   .about-list {
     gap: 40px;
     width: 859px;
   }
+
   .about-img {
     width: 892px;
     height: 500px;
     object-fit: cover;
   }
+
   .img-wrapp {
     margin-left: auto;
   }
