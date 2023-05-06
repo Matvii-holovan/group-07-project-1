@@ -1,39 +1,167 @@
 <section class="hero">
   <div class="container">
-    <h1 class="title">Welcome to our collection of premium watches</h1>
+    <h1 class="title-hero">Welcome to our collection of premium watches</h1>
     <!-- ========== Slider ======== -->
-    <div class="swiper mySwiper">
+    <div class="swiper my-swiper">
       <div class="swiper-wrapper">
-        <!-- Slides -->
+        <!-- Slides  -->
         <div class="swiper-slide">
-          <img class="img-slide" src="./images/IMG_9463 1.webp" alt="clock" />
+          <picture>
+            <source
+              srcset="../img/hero/1-desc.jpg 1x, ../img/hero/1@2x-desc.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="../img/hero/1-tab.jpg 1x, ../img/hero/1@2x-tab.jpg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="../img/hero/1-mob.jpg 1x, ../img/hero/1@2x-mob.jpg 2x"
+              media="(max-width: 767px)"
+            />
+            <img class="img-slide" src="../img/hero/1-mob.jpg" alt="watch" />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img src="./images/IMG_2.png" alt="" />
+          <picture>
+            <source
+              srcset="../img/hero/2-desc.jpg 1x, ../img/hero/2@2x-desc.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="../img/hero/2-tab.jpg 1x, ../img/hero/2@2x-tab.jpg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="../img/hero/2-mob.jpg 1x, ../img/hero/2@2x-mob.jpg 2x"
+              media="(max-width: 767px)"
+            />
+
+            <img class="img-slide" src="../img/hero/2-mob.jpg" alt="watch" />
+          </picture>
         </div>
-        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="../img/hero/3-desc.jpg 1x, ../img/hero/3@2x-desc.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="../img/hero/3-tab.jpg 1x, ../img/hero/3@2x-tab.jpg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="../img/hero/3-mob.jpg 1x, ../img/hero/1@3x-mob.jpg 2x"
+              media="(max-width: 767px)"
+            />
+            <img class="img-slide" src="../img/hero/3-mob.jpg" alt="watch" />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="../img/hero/4-desc.jpg 1x, ../img/hero/4@2x-desc.jpg 2x"
+              media="(min-width: 1280px)" />
+            <source
+              srcset="../img/hero/4-tab.jpg 1x, ../img/hero/4@2x-tab.jpg 2x"
+              media="(min-width: 768px)" />
+            <source
+              srcset="../img/hero/4-mob.jpg 1x, ../img/hero/1@4x-mob.jpg 2x"
+              media="(max-width: 767px)" />
+            <img class="img-slide" src="../img/hero/4-mob.jpg" alt="watch"
+          /></picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="../img/hero/5-desc.jpg 1x, ../img/hero/5@2x-desc.jpg 2x"
+              media="(min-width: 1280px)" />
+            <source
+              srcset="../img/hero/5-tab.jpg 1x, ../img/hero/5@2x-tab.jpg 2x"
+              media="(min-width: 768px)" />
+            <source
+              srcset="../img/hero/5-mob.jpg 1x, ../img/hero/1@5x-mob.jpg 2x"
+              media="(max-width: 767px)" />
+            <img class="img-slide" src="./images/5-mob.jpg" alt="watch"
+          /></picture>
+        </div>
       </div>
       <div class="swiper-pagination"></div>
-      <div class="button-prev">
-        <button class="" width="32px" height="32px">
-          <svg class="icon-swiper" width="18px" height="18px">
-            <use href="./sprite.svg#chevron-left"></use>
-          </svg>
-        </button>
+      <div class="contr-hero-btn">
+        <div class="button-prev">
+          <button class="btn-prev-slider" type="button">
+            <svg class="icon-swiper" width="18px" height="18px">
+              <use href="../img/icons.svg#chevron-left"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="button-next">
+          <button class="btn-next-slider" type="button">
+            <svg class="icon-swiper" width="18px" height="18px">
+              <use href="../img/icons.svg#chevron-right"></use>
+            </svg>
+          </button>
+        </div>
       </div>
-      <div class="button-next">
-        <button>
-          <svg class="" width="18px" height="18px">
-            <use href="/sprite.svg#chevron-right"></use>
-          </svg>
-        </button>
-      </div>
+      <p>1----5</p>
+      <div class="swiper-scrollbar"></div>
     </div>
     <p class="hero-text">
       Our watches are not just timepieces, but also an expression of your
       personality and lifestyle. From classic designs to modern ones, we have a
-      watch to suit every taste and occasion. top group
+      watch to suit every taste and occasion.
     </p>
-    <img src="./images/hand-clock-mob.jpg" alt="watch on hand" />
+    <picture>
+      <source
+        srcset="
+          ../img/hero/Rectangle-desc.jpg    1x,
+          ../img/hero/Rectangle@2x-desc.jpg 2x
+        "
+        media="(min-width: 1280px)" />
+      <source
+        srcset="
+          ../img/hero/Rectangle-tab.jpg    1x,
+          ../img/hero/Rectangle@2x-tab.jpg 2x
+        "
+        media="(min-width: 768px)" />
+      <source
+        srcset="
+          ../img/hero/Retangle-mob.jpg,
+          ../img/hero/Rectangle@2x-mob.jpg 2x
+        "
+        media="(max-width: 767px)" />
+      <img
+        class="img-hero"
+        src="./images/hand-clock-mob.jpg"
+        alt="watch on hand"
+    /></picture>
   </div>
+  <!--  
+        <div>
+          <button class="nnn">
+            <svg class="" width="24px" height="24px">
+              <use href="./sprite.svg#chevron-left"></use>
+            </svg>
+          </button>
+          <button class="nnn">
+            <svg class="" width="24px" height="24px">
+              <use href="./sprite.svg#chevron-right"></use>
+            </svg>
+          </button>
+        </div> -->
 </section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.my-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    keyboard: {
+      enabled: true,
+    },
+    navigation: {
+      nextEl: '.button-next',
+      prevEl: '.button-prev',
+    },
+  });
+</script>
