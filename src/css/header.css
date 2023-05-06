@@ -1,9 +1,10 @@
 .header {
+  background-color: var(--black-color);
 }
 
 .header-section {
   height: 100%;
-  background-color: var(--black-color);
+  /* background-color: var(--black-color); */
   border: none;
   display: flex;
   align-items: center;
