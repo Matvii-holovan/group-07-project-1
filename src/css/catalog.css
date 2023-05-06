@@ -83,6 +83,30 @@
   margin-bottom: 14px;
 }
 
+.catalog-watch-icon {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+
+  cursor: pointer;
+
+  padding: 0;
+ 
+
+   fill: transparent;
+   stroke:rgba(20, 20, 20, 0.1);
+   width: 20px;
+   height: 20px;
+
+   transition: fill 250ms;
+}
+
+.catalog-link:hover .catalog-watch-icon,
+.catalog-link:focus .catalog-watch-icon {
+  fill: var(--white-color);
+  z-index: 1;
+}
+
 .catalog-watch-inform {
   position: absolute;
   top: 0;
@@ -200,3 +224,5 @@
     padding: 26px 45px 20px 20px;
   }
 }
+
+
