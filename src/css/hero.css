@@ -165,6 +165,9 @@
     padding-bottom: 64px;
     background: var(--black-color);
   }
+  .hero-flex {
+    position: relative;
+  }
   .swiper {
     margin-left: 0;
     width: 436px;
@@ -256,7 +259,7 @@
     display: block;
     position: absolute;
     right: 0;
-    top: 425px;
+    top: 330px;
     font-family: var(--prime-fonts);
     font-style: normal;
     font-weight: 300;
@@ -276,15 +279,24 @@
   .hero {
     padding-bottom: 80px;
   }
+  .hero-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
   .title-hero {
     position: relative;
     max-width: 750px;
     margin-bottom: 43px;
   }
   .hero-text {
-    margin-left: 144px;
-    left: 781px;
-    top: 106px;
+    right: 0;
+    left: unset;
+    top: 0;
     max-width: 282px;
+  }
+  .img-hero {
+    margin-top: 0;
   }
 }
