@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Watch Spot</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-    
-    <script type="module" crossorigin src="/group-07-project-1/assets/index-dd864085.js"></script>
-    <link rel="stylesheet" href="/group-07-project-1/assets/index-64f6633e.css">
-  </head>
 
-  <body>
-    <main>
-      <!-- Michael Tetris -->
-      <header class="header">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAwCAYAAABqkJjhAAAKS0lEQVRoQ5WYWYiU6RWGq0rtzdFe7JYYotPqTBICMaBIJkRGjRdCDBEvvBgw7TLJeOGA4pCbjNgqySQjAYWQhLnQVpkEMgiKNxoFWx3TgQRtQw8qiku3JO52u9suVXmfU9/5/aqs7ipfOHW+9Zz3P//5lr/SqaFRqo82JGe1wjFDjfexMeK2XDqdTuVy1uTtxfaT8aWcAHeU9MtoRkbjtljHDiCQDgRKIe4oHuT14jGJD3c6HGJirr2MkUy+aIjtUbbooaMHsPYgMbw+lLZ5sbNiMMC8CYzzsjsEPt/GNjQ0NLa3t6/r7Ow8dOfOnWsiOXjy5Ml/t7W1LVX/CInbMQGhTCUmlugwZljEAygjOMLhyEhGSaqCrl69evVHItlPKEuhu7v7P42NjV/T2BrGB2G+20Cw6w9W8HCSsnCiLhhC3DiOzOn27dt3Bl7DQpE/qvF1Ekg78Zi0B8P8hehmgh6StHeWIosxd2CiV34q8BkWL168yCJ6E7/UvDpxqJV24rHNUpFGhoQ/SUzcyRZEd8uWLX8IfIaFk0Vu377dr1z/uuYTaSdtKaKHcPsxaSfufF6BN/JKmDQSLanCYNDVy5Yt+3ngUxYxYeobNmz4RHZHI7IFYU+T4ijHkS4krInkCiQtZwQvM8GIZjKZGuma1tbWb128ePGysSmDbDZbQBi5cOHCZdl5Q3YhbMQlTrpUXsMBsi9TQxMhR4NpCVG11yNtBqQxWNPR0bEr8BkWThZdTHzOnDk/lq0xEiMuiVOkFGHjJknCnBCWMMBfCYRHKbrkWK1S4YPApyycbEzU64cPH/5StuslQ5ImUJKShNVeAM9fiNpElasnT5787UpToRTJYlGUfyK7kB4rcdLxQvQoI0Y6zzh/mBjxfDVJDbsTSGyw9tvPRPpNlSuBz01BOLSZcdcLFy5cQJF60Ai+vewCkrIXIGUiW2iLKqJ6nVb2b+S8Ijx//jz77NkzE0XS6uiobFEPW1yr7DfID1EmPeLUMP8Sj/BIfvKs82e5kRf4sQijtSu8uWfPnr8xrhzEl4h6EKyOEYpmTaAdXVNTUz04OPj0yJEjx2mLUHDhkWStFuDGPbltd5AQYbax2krzFmjL6hWJ7NOnT0080opscaRzDx48yJ4/f75ffhrlh1yOF2G8zXkej/R8AVlNsrr8ehRy69ev/7jSvL106dKVtWvXblDRgiA7RNhs8TDe9uTJk1x/f3/u1q1bKT1Mw4IFC94LcxxxhF1bGwQpoEcEo0YUpVRoVe5+TFsl2LVr1xf79u37+7Fjx7owFQSQJilF3ojevHkzdePGjdT169dNz5o1ywiDoM1eQEzaUqCgIQzO1NfXN3V1dR3VlZAFURbXrl27t27duj+KxH97e3v/t2TJksUQBYpi+uHDh6mBgQFIW/3evXvpx48f054bM2bMpKtXr34l34PyO1ZSr8XYIN8U67W1pvVWnshUEuVk35XmCK6q9GLjUFRzK1eu7NL8b8jOxIMHD3bdv38/qwhmL1++nD19+nS2p6cnRzq8Dlg/etFvw01iOWxQn+u0vhDa1qxZ86E1VABFKyVSuXeEurq6sbylbdu27fZXHyStvlR1NWuocmzcuPHXst0XqrbIPGlQtoVpoa2jvVIoBVJVVVWp8ePHpxcvXvwLNWX2799/UI7uQ1qLK/3o0aOc+vNRqRA7duz4fOfOnZ+H6sscDoRBWqnw+7lz574b6mUhIqlz587lRo8enVK6paZPn/6d3bt3/0VRv69crZ40adI7WmipKVOmpBQM91MW2nH6VqxY8YHy/q7o8aBJ/vL5jqGMLjZtkp/RUSmIIK+6paUl3dzcnNIWOHbVqlXv07d3796Ovr6+eyyyqVOn2vhKsWnTpk88FTxdPa622Ejs1zkggA6G3JkzZ9j8s1rlubt372Y5NHTkDsj4ZEnr/Pnztx06dMgu7pVi69atfxInPzz8iLaLEJRJi0x+F2ls1Hj5yee2wN6cnjhx4jQdCLuIJFJbW5tqampKjxo1iqe2dKB9xIgRSRTmzZv3no7cf02bNu37Bw4c+GzChAncFcqCVJgxY8YPlUYDqnIkI4Q4OZ792OMpOAr5QETekNRLmtQ2bvPmzV8KuRMnTmTPnj2bvXLlSlaf9UQ0udC4ECXdd/+pea1awFupVwq96e/Kpx/PxVdNssHuDlTs7iDhNYzWXswEznbO+aaZM2f+lL1UOZnVqs9qsdmNywmC4vLSpUs/4rgOTWWhU/W3kA2E+Xzy+4Slg4RssAINHmGeyiIs0kZYMk7Sok/6Xp1MfoEpiGhc9za9gQF0JdD66ZVP3qhf5uFh+as2j65dL411ALlLEmpM/iIE6BAyyt2MLipzOSqB/OgTIGP9lGPQr0MCZz5/WChv39UWxj9Hvg5sK1OZ56EOrMMjXJASEsthaSLcpHKL1uRb7ADF0YwF664rRXt7++9knxMSf5YKEstf6TgdtKxfRhWgk3IABdurtcCeKsq1s2fP/gGRVVsYmgdt5DVlm1gBjh49enz58uWrVCSaXHHB83xv/rAo0Oq0fVjiEbYclpBH5FODxhBhy2NF+ZtEpTiKxVGuBMrbPu0K35Ndctd2BmkibLkbBG4e4Yz/SQ2ISBwyi5Am02b/8yqCOeXZgPbXLvqIpgt1IhxHuRx0mn2qe0ivivYAaOvI77n494+KuC9/0kmIME/kq5OnZYuxbQ1RW7P0eH2eLyqO5utGuKOj46+yh13eIPlrH5/SFl1p/3shiW7Q+e1CYoTDBFt4KkMYg77wjLDK4zs7O//h5Ip1OXgqYFu27DtOZQKEXzg4Yb+nJ2vNw+0LxAyiQyXfkMslx6JDV78v/PWjQ3NFUCpsVib0ya6lHBJ82L1AmgfHN/unzQmwCuyRJC00yKPMwmMxJCeeZBzC4vMtDm+VRlcXmz9rPovMU8FONUmtytV6ePzzj5NHF4GoRdhDDWh0ccR10zJiE/Wp81jb3KBuYz8SD7rKbmWnTp3qWbRoUZuGWVTVZOJldLDFD9G1Om8wdFhnHGEkPqJ5cvKL7S3Z4qTHyUiLdIty+TjGyoFFxlwJNuyfHukkdyW2jcmu8VAdgTSRtiBJDFQgTOiTtJAUnHoSJ20LEJGhcbqWvqU7xleB1yvgPqHvw19pLHNIBbsvSLirYJ9UwBenGn79D3TIakjGs6CAMOL5EhNGnDC5ZlEOkhzZ0s26mX3Y3d3dE0jeJfK6fX2qXJ+iMR7ZZEeQ9sjaVibxv1Yha/krSaB2YAUXSIO4zdqZIB5eBz7WdLBnf8QE4+Qai9Cmel0CGMaBgLY+lW3BMlh12y2C2GApt2n/R7jzGAwwFpG2CUPAHOX95bckUKJOwQgGTZ1BXraxYZ5tq4LZpgDID6AxNogfM1BUHg5uzMYGQ0ZKDk3ThKiaVU7SD2xe6KfNyeLP/b/imwi7AeDlgsHRkGIDXkfH4g/h/Qk5KZ6DB7EIBtv+FmIbJUGEY5LFerg+10ixg1JOvS3uswfIFxO4bUBfVE+l/g9d413AAPidXwAAAABJRU5ErkJggg==" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Watch Spot</title>
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  
+  <script type="module" crossorigin src="/group-07-project-1/assets/index-dd864085.js"></script>
+  <link rel="stylesheet" href="/group-07-project-1/assets/index-64f6633e.css">
+</head>
+
+<body>
+  <main>
+    <!-- Michael Tetris -->
+    <header class="header">
   <section class="header-section container">
     <nav class="header-nav">
       <a class="main-logo link" href="">
@@ -63,8 +60,8 @@
   </section>
 </header>
 
-      <!-- Haidar Volodymyr -->
-      <section class="hero">
+    <!-- Haidar Volodymyr -->
+    <section class="hero">
   <div class="container">
     <h1 class="title-hero">Welcome to our collection of premium watches</h1>
     <!-- ========== Slider ======== -->
@@ -238,8 +235,8 @@
   });
 </script>
 
-      <!-- Nelia -->
-      <section class="about">
+    <!-- Nelia -->
+    <section class="about">
   <div class="about-wrapp container">
     <h2 class="about-title">About us</h2>
     <ul class="about-list list">
@@ -272,8 +269,8 @@
   </div>
 </section>
 
-      <!-- Pavlo Dereniuk -->
-      <section class="catalog">
+    <!-- Pavlo Dereniuk -->
+    <section class="catalog">
   <div class="container">
     <h2 class="catalog-title">Catalog</h2>
 
@@ -723,12 +720,12 @@
     <button class="button catalog-button" data-modal-open>buy now</button>
   </div>
 </section>
-      <!-- oleg zhdan  -->
-      
-      <!-- Валентин Васильович -->
-      
-      <!-- Назар Бідак  -->
-      <footer class="footer">
+    <!-- oleg zhdan  -->
+    
+    <!-- Валентин Васильович -->
+    
+    <!-- Назар Бідак  -->
+    <footer class="footer">
   <div class="footer-container container">
     <div class="footer-tablet-wrap">
       <div class="footer-flex-container">
@@ -816,8 +813,8 @@
   </div>
 </footer>
 
-      <!-- Pavlo Dereniuk -->
-      <div class="backdrop is-hidden" data-modal>
+    <!-- Pavlo Dereniuk -->
+    <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button type="button" class="button-close" data-modal-close>
       <svg class="modal-button-icon">
@@ -909,10 +906,11 @@
   </div>
 </div>
 
-      <!-- Michael Tetris -->
-      
-    </main>
+    <!-- Michael Tetris -->
     
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  </body>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
 </html>
