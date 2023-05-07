@@ -103,11 +103,33 @@
   color: rgba(20, 20, 20, 0.5);
 }
 
-.form-field {
-  margin-bottom: 18px;
+.madal-form-wrapper {
+  margin-top: 30px;
+}
+
+.modal-input-wrapper {
+  position: relative;
+  margin-bottom: 54px;
+}
+
+.modal-input-wrapper:nth-child(3) {
+  margin-bottom: 24px;
 }
 
 .form-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-30px);
+
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--black-color);
+}
+
+.form-label-comments {
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -174,6 +196,10 @@
   outline: 1px solid #ff0000;
 }
 
+.form-input:focus:invalid ~ .form-label {
+  color: #ff0000;
+}
+
 .form-input:focus:valid {
   outline: solid 1px #18e109;
 }
@@ -193,6 +219,11 @@
     max-width: 276px;
     margin-right: 20px;
     margin-bottom: 0;
+  }
+
+  .form-label {
+    font-size: 14px;
+    line-height: 1.29;
   }
 
   .modal-textarea {
