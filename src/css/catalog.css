@@ -89,10 +89,8 @@
   right: 14px;
 
   cursor: pointer;
-
   padding: 0;
  
-
    fill: transparent;
    stroke:rgba(20, 20, 20, 0.1);
    width: 20px;
@@ -154,10 +152,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
 
   .catalog {
     padding: 128px 0;
@@ -169,7 +163,6 @@
   }
 
   .catalog-list {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 40px;
@@ -186,10 +179,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    padding-left: 52px;
-    padding-right: 52px;
-  }
 
   .catalog-link:nth-last-child(-n + 4) {
     display: block;
@@ -215,8 +204,6 @@
   }
 
   .catalog-block-wrapper {
-    position: relative;
-    overflow: hidden;
     height: 325px;
   }
 
