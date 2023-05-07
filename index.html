@@ -14,11 +14,11 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   
-  <script type="module" crossorigin src="/group-07-project-1/assets/index-9e67b73f.js"></script>
-  <link rel="stylesheet" href="/group-07-project-1/assets/index-5886511a.css">
+  <script type="module" crossorigin src="/group-07-project-1/assets/index-6f0acfb6.js"></script>
+  <link rel="stylesheet" href="/group-07-project-1/assets/index-2e5928d2.css">
 </head>
 
-<body>
+<body no-scroll>
   <main>
     <!-- Michael Tetris -->
     <header class="header">
@@ -265,7 +265,7 @@
 </section>
 
     <!-- Pavlo Dereniuk -->
-    <section class="catalog">
+    <section class="catalog" id="catalog">
   <div class="container">
     <h2 class="catalog-title">Catalog</h2>
 
@@ -1041,6 +1041,8 @@
                 pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄ\s]*"
                 placeholder="Enter your full name"
                 class="form-input"
+                autocomplete="off"
+                required
               />
             </div>
           </div>
@@ -1052,9 +1054,11 @@
                 type="email"
                 name="email"
                 id="email"
-                pattern="^(?:4[0-9]{3}(?:\s|-)?[0-9]{4}(?:\s|-)?[0-9]{4}(?:\s|-)?[0-9]{4}|5[1-5][0-9]{2}(?:\s|-)?[0-9]{4}(?:\s|-)?[0-9]{4}(?:\s|-)?[0-9]{4}|6(?:011|5[0-9][0-9])(?:\s|-)?[0-9]{4}(?:\s|-)?[0-9]{4}(?:\s|-)?[0-9]{4}(?:\s|-)?[0-9]{1,4}|3[47][0-9]{2}(?:\s|-)?[0-9]{6}(?:\s|-)?[0-9]{5}|3(?:0[0-5]|[68][0-9])[0-9](?:\s|-)?[0-9]{4}(?:\s|-)?[0-9]{4}(?:\s|-)?[0-9]{4}|(?:2131|1800|35\d{3})\d{11})$"
+                pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
                 placeholder="Enter your email"
                 class="form-input"
+                autocomplete="off"
+                required
               />
             </div>
           </div>
@@ -1070,6 +1074,8 @@
                 maxlength="19"
                 placeholder="Enter card"
                 class="form-input"
+                autocomplete="off"
+                required
               />
             </div>
           </div>
