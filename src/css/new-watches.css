@@ -1,4 +1,6 @@
-.new-watches-section {}
+.new-watches-section {
+    padding-bottom: 128px;
+}
 
 .new-watches-title {
     margin-bottom: 8px;
@@ -34,6 +36,23 @@
 
 @media screen and (min-width: 375px) {}
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .new-watches-text{
+        width: 448px;
+        font-size: 40px;
+        line-height: 1.10;
+    }
+        .new-watches-list{
+            flex-direction: row;
+        }
 
-@media screen and (min-width: 1280px) {}
+}
+
+@media screen and (min-width: 1280px) {
+    .new-watches-text{
+        margin-bottom: 80px;
+    }
+        .new-watches-list{
+            gap:24px;
+        }
+}
