@@ -277,6 +277,7 @@
     padding-bottom: 80px;
   }
   .title-hero {
+    position: relative;
     max-width: 750px;
     margin-bottom: 43px;
   }
