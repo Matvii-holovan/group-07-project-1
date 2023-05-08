@@ -1,6 +1,7 @@
 .sale {
     min-width: 320px;
     padding-bottom: 80px;
+    padding-top: 40px;
     background-color: var(--white-color);
 }
 .sale-title {
@@ -115,6 +116,10 @@
 /* ----------MEDIA------------------ */
 
 @media screen and (min-width: 768px) {
+    .sale {
+        padding-top: 64px;
+        padding-bottom: 128px;
+    }
     .container {
         width: 768px;
     }
@@ -133,7 +138,9 @@
 @media screen and (min-width: 1280px) {
       
     .sale{
-        min-width: 1176px;  
+        min-width: 1176px;
+        padding-bottom: 160px;
+        padding-top: 80px;
     }
     .sale-container {
         display: flex;

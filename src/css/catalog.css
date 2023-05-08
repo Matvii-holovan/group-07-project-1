@@ -1,6 +1,5 @@
 .catalog {
-  padding: 80px 0;
-  background-color: #FBFBFB;
+  padding: 40px 0;
 }
 
 .catalog-title {
@@ -155,7 +154,7 @@
 @media screen and (min-width: 768px) {
 
   .catalog {
-    padding: 128px 0;
+    padding: 64px 0;
   }
 
   .catalog-title {
@@ -186,7 +185,7 @@
   }
 
   .catalog {
-    padding: 80px 0 210px;
+    padding: 80px 0;
     background-color: transparent;
   }
 

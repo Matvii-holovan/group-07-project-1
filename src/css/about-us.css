@@ -1,6 +1,6 @@
 .about {
-  padding-top: 80px;
-  background-color: #fbfbfb;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .about-text {
@@ -38,12 +38,18 @@
   .img-wrapp {
     width: 300px;
   }
+
   .about-list {
     width: 300px;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .about {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
   .about-wrapp {
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +75,13 @@
     object-fit: cover;
   }
 }
+
 @media screen and (min-width: 1280px) {
+  .about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
   .about-title {
     margin-right: 110px;
     margin-bottom: 0;
