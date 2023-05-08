@@ -1,5 +1,6 @@
 .catalog {
   padding: 80px 0;
+  background-color: #FBFBFB;
 }
 
 .catalog-title {
@@ -186,6 +187,7 @@
 
   .catalog {
     padding: 80px 0 210px;
+    background-color: transparent;
   }
 
   .catalog-link {
