@@ -3,7 +3,7 @@
     <div class="hero-flex">
       <h1 class="title-hero">Welcome to our collection of premium watches</h1>
       <!-- ========== Slider ======== -->
-      <div>
+      <div class="swiper-container">
         <div class="swiper my-swiper">
           <div class="swiper-wrapper">
             <!-- Slides  -->
@@ -114,30 +114,32 @@
         personality and lifestyle. From classic designs to modern ones, we have
         a watch to suit every taste and occasion.
       </p>
-      <picture>
-        <source
-          srcset="
-            ./img/hero/Rectangle-desc.jpg    1x,
-            ./img/hero/Rectangle@2x-desc.jpg 2x
-          "
-          media="(min-width: 1280px)" />
-        <source
-          srcset="
-            ./img/hero/Rectangle-tab.jpg    1x,
-            ./img/hero/Rectangle@2x-tab.jpg 2x
-          "
-          media="(min-width: 768px)" />
-        <source
-          srcset="
-            ./img/hero/Retangle-mob.jpg,
-            ./img/hero/Rectangle@2x-mob.jpg 2x
-          "
-          media="(max-width: 767px)" />
-        <img
-          class="img-hero"
-          src="./images/hand-clock-mob.jpg"
-          alt="watch on hand"
-      /></picture>
+      <div class="hero-img-bottom">
+        <picture>
+          <source
+            srcset="
+              ./img/hero/Rectangle-desc.jpg    1x,
+              ./img/hero/Rectangle@2x-desc.jpg 2x
+            "
+            media="(min-width: 1280px)" />
+          <source
+            srcset="
+              ./img/hero/Rectangle-tab.jpg    1x,
+              ./img/hero/Rectangle@2x-tab.jpg 2x
+            "
+            media="(min-width: 768px)" />
+          <source
+            srcset="
+              ./img/hero/Retangle-mob.jpg,
+              ./img/hero/Rectangle@2x-mob.jpg 2x
+            "
+            media="(max-width: 767px)" />
+          <img
+            class="img-hero"
+            src="./images/hand-clock-mob.jpg"
+            alt="watch on hand"
+        /></picture>
+      </div>
     </div>
   </div>
 </section>
