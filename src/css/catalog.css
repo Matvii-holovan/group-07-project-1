@@ -1,5 +1,5 @@
 .catalog {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .catalog-title {
@@ -89,10 +89,8 @@
   right: 14px;
 
   cursor: pointer;
-
   padding: 0;
  
-
    fill: transparent;
    stroke:rgba(20, 20, 20, 0.1);
    width: 20px;
@@ -154,13 +152,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
 
   .catalog {
-    padding: 128px 0;
+    padding: 64px 0;
   }
 
   .catalog-title {
@@ -169,7 +163,6 @@
   }
 
   .catalog-list {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 40px;
@@ -186,17 +179,14 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    padding-left: 52px;
-    padding-right: 52px;
-  }
 
   .catalog-link:nth-last-child(-n + 4) {
     display: block;
   }
 
   .catalog {
-    padding: 80px 0 210px;
+    padding: 80px 0;
+    background-color: transparent;
   }
 
   .catalog-link {
@@ -215,8 +205,6 @@
   }
 
   .catalog-block-wrapper {
-    position: relative;
-    overflow: hidden;
     height: 325px;
   }
 
