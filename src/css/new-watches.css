@@ -1,4 +1,6 @@
+
 .new-watches-section {
+    background: #EFEFEF;
     padding-bottom: 40px;
     padding-top: 40px;
 }
@@ -62,8 +64,10 @@
     .new-watches-text {
         margin-bottom: 80px;
     }
-
-    .new-watches-list {
-        gap: 24px;
-    }
-}
+        .new-watches-list{
+            gap:24px;
+        }
+                .new-watches-section {
+                    background: none;
+                  
+                }
