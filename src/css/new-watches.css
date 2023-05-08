@@ -32,6 +32,11 @@
 
 }
 
+.new-watches-photo {
+    width: 576px;
+    height: 422px;
+}
+
 
 
 @media screen and (min-width: 375px) {}
