@@ -35,5 +35,11 @@
     <symbol id="icon-minus" viewBox="0 0 256 32">
       <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h256"></path>
     </symbol>
+    <symbol id="chevron-left" viewBox="0 0 32 32">
+      <path fill="none" stroke="#FFFFFF" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M20 24l-8-8 8-8"></path>
+    </symbol>
+    <symbol id="chevron-right" viewBox="0 0 32 32">
+      <path fill="none" stroke="#FFFFFF" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M12 24l8-8-8-8"></path>
+    </symbol>
   </defs>
 </svg>
