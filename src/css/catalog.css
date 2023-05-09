@@ -42,7 +42,7 @@
 }
 
 .catalog-link {
-  width: 335px;
+  max-width: 335px;
 }
 
 .catalog-watch-img {
