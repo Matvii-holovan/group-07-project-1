@@ -45,6 +45,10 @@ body {
   font-family: 'Epilogue', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --black-color: #141414;
   --dark-green: #1e2827;
