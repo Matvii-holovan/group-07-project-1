@@ -184,7 +184,14 @@
       </li>
     </ul>
     <div class="img-wrapp">
-      <img class="about-img" src="/group-07-project-1/assets/watchspot-compress-7852beff.gif" alt="watchspot-gif" width="335" height="365"/>
+      <picture>
+        <source srcset="/group-07-project-1/assets/watchspot-compress-7852beff.gif " media="(min-width: 1280px)" />
+        <source srcset="/group-07-project-1/assets/watchspot-compress-7852beff.gif " media="(min-width: 768px)" />
+        <source srcset="/group-07-project-1/assets/gif-mob-986b8642.jpg 1x, /group-07-project-1/assets/gif-mob-2x-2e948da3.jpg 2x" media="(max-width: 767px)" />
+        <img class="img-slide" src="/group-07-project-1/assets/gif-mob-986b8642.jpg" alt="watch" />
+      </picture>
+      <!-- <img class="about-img" src="./img/img-about-us/watchspot-compress.gif" alt="watchspot-gif" width="335"
+        height="365" /> -->
     </div>
   </div>
 </section>
