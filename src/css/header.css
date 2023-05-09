@@ -9,13 +9,10 @@
   display: flex;
   align-items: center;
   justify-content: start;
-  /* padding-top: 29px; */
 }
 
 .header-nav {
   display: flex;
-  padding-top: 7px;
-  padding-bottom: 7px;
 }
 
 .main-logo {
@@ -147,6 +144,7 @@
   }
 
   .item-contact {
+    font-style: normal;
     font-weight: 400;
     font-size: 9px;
     line-height: 1.3;
