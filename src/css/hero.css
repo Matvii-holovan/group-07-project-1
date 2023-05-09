@@ -24,10 +24,7 @@
     margin-bottom: 20px;
   }
 
-  .hero-img-swiper {
-    width: 266px;
-    height: 200px;
-  }
+ 
 
   .btn-prev-slider {
     width: 40px;
@@ -46,6 +43,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 266px;
+    height: 200px;
   }
 
   .icon-swiper {
@@ -191,10 +190,7 @@
   }
 
   
-  .hero-img-swiper {
-    width: 436px;
-    height: 255px;
-  }
+ 
 
 
   .page-number {
@@ -286,6 +282,8 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    width: 436px;
+    height: 255px;
   }
 
   .icon-swiper {
