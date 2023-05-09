@@ -142,7 +142,8 @@
 .modal-textarea {
   padding: 12px 16px;
   width: 100%;
-  border: 1px solid rgba(20, 20, 20, 0.5);
+  border: transparent;
+  outline: 1px solid rgba(20, 20, 20, 0.5);
   border-radius: 8px;
 }
 
