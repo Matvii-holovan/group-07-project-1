@@ -98,10 +98,13 @@
     color: var(--white-color);
   }
 
-  .chevron:hover,
-  .chevron:focus {
-    color: rgba(255, 255, 255, 0.5);
-  }
+ 
+
+  /* .btn:hover,
+  .btn:focus {
+    color: var(--white-color);
+
+  } */
 
   .number-right::before {
     content: '';
@@ -125,6 +128,7 @@
   }
 
   .chevron {
+    color: var(--white-color);
     width: 18px;
     height: 18px;
   }
@@ -136,6 +140,12 @@
   .btn:hover,
   .btn:focus {
     border: 1px solid rgba(255, 255, 255, 0.5);
+
+  }
+
+  .btn:hover>.chevron,
+  .btn:focus>.chevron {
+    stroke: var(--white-color);
   }
 
   .cont-btn {
@@ -215,9 +225,20 @@
     color: var(--white-color);
   }
 
-  .chevron:hover,
+  /* .chevron:hover,
   .chevron:focus {
     stroke: rgba(255, 255, 255, 0.5);
+  } */
+
+  .btn:hover,
+  .btn:focus {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+  }
+
+  .btn:hover>.chevron,
+  .btn:focus>.chevron {
+    stroke: var(--white-color);
   }
 
   .number-right::before {
@@ -331,8 +352,21 @@
     order: 1;
   }
 
+
+
   .swiper-container {
     order: 3;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+  }
+
+  .btn:hover>.chevron,
+  .btn:focus>.chevron {
+    stroke: var(--white-color);
   }
 
   .hero-text {
