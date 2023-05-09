@@ -20,7 +20,14 @@
       </li>
     </ul>
     <div class="img-wrapp">
-      <img class="about-img" src="./img/img-about-us/watchspot-compress.gif" alt="watchspot-gif" width="335" height="365"/>
+      <picture>
+        <source srcset="./img/img-about-us/watchspot-compress.gif" media="(min-width: 1280px)" />
+        <source srcset="./img/img-about-us/watchspot-compress.gif" media="(min-width: 768px)" />
+        <source srcset="./img/img-about-us/gif-mob.jpg 1x, ./img/img-about-us/gif-mob-2x.jpg 2x" media="(max-width: 767px)" />
+        <img class="img-slide" src="./img/img-about-us/gif-mob.jpg" alt="watch" />
+      </picture>
+      <!-- <img class="about-img" src="./img/img-about-us/watchspot-compress.gif" alt="watchspot-gif" width="335"
+        height="365" /> -->
     </div>
   </div>
 </section>
