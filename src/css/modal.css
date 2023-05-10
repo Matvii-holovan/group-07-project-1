@@ -74,7 +74,7 @@
 }
 
 .modal-watch-wrapper {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .modal-watch-img {
@@ -147,7 +147,7 @@
   border-radius: 8px;
 }
 
-.form-input::placeholder .modal-textarea::placeholder {
+.form-input::placeholder, .modal-textarea::placeholder {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -222,7 +222,7 @@
     margin-bottom: 0;
   }
 
-  .form-label {
+  .form-label, .form-label-comments {
     font-size: 14px;
     line-height: 1.29;
   }
